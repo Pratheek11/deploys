@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "E-Learn",
+    "framework": "React",
+    "titleImg": "../img/react.png",
+    "img": [
+      "../img/e-learn-1.png",
+      "../img/e-learn-2.png",
+      "../img/e-learn-3.png"
+    ],
+    "description": "Here I used React to develope the user interface and created a static jason file for all the data used in the project.",
+    "repository": "https://github.com/Pratheek11/React-e-learning-web-app"
+  },
+  {
+    "id": 2,
+    "name": "Pig-game",
+    "framework": "HTML, CSS, JS",
+    "img": ["../img/pig-game.png", "../img/pig-game-2.png"],
+    "description": "Here I used React to develope the user interface and created a static jason file for all the data used in the project.",
+    "repository": "https://github.com/Pratheek11/Pig-game"
+  }
+]
