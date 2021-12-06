@@ -45,11 +45,11 @@ function SingleProject({ match }) {
           </a>
         </Rep>
       </Cover>
-      <Sample ref={ref3}>
+      {/* <Sample ref={ref3}>
         {item.img.map((el) => {
           return <img className="imge" src={el} alt={item.name} />;
         })}
-      </Sample>
+      </Sample> */}
     </Container>
   );
 }
@@ -84,21 +84,21 @@ const Rep = styled.div`
     border-bottom: 2px solid black;
   }
 `;
-const Sample = styled.div`
-  display: flex;
-  overflow-y: hidden;
-  overflow-x: scroll;
+// const Sample = styled.div`
+//   display: flex;
+//   overflow-y: hidden;
+//   overflow-x: scroll;
 
-  ::-webkit-scrollbar {
-    display: none;
-  }
+//   ::-webkit-scrollbar {
+//     display: none;
+//   }
 
-  .imge {
-    object-fit: contain;
-    width: 100%;
-    height: 250px;
-    margin-right: 50px;
-    transition: transform 450ms;
-  }
-`;
+//   .imge {
+//     object-fit: contain;
+//     width: 100%;
+//     height: 250px;
+//     margin-right: 50px;
+//     transition: transform 450ms;
+//   }
+// `;
 export default SingleProject;

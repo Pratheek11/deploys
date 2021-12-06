@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import styled from "styled-components";
 import { GiSunglasses } from "react-icons/gi";
-import dp from "../img/dp.jpeg";
+import dp from "../img/dp1.jpeg";
 import { gsap } from "gsap";
 
 function Body() {
@@ -71,7 +71,7 @@ const Contact = styled.div`
   }
   .dp {
     height: 310px;
-    clip-path: circle(115px at 115px 140px);
+    clip-path: circle(98px at 100px 130px);
   }
   @media only screen and (max-width: 540px) {
     .dp {
@@ -104,7 +104,7 @@ const Contact = styled.div`
     }
     .dp {
       height: 250px;
-      clip-path: circle(60px at 60px 100px);
+      clip-path: circle(60px at 80px 90px);
     }
   }
   @media only screen and (max-width: 321px) {
@@ -120,7 +120,7 @@ const Contact = styled.div`
     }
     .dp {
       height: 250px;
-      clip-path: circle(50px at 60px 100px);
+      clip-path: circle(60px at 80px 80px);
     }
   }
 `;

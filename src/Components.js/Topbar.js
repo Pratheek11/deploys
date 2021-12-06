@@ -58,8 +58,8 @@ function Topbar(props) {
             >
               <li>Projects</li>
             </NavLink>
-            <li onClick={() => props.darkF()}>Dark Mode</li>
-            <li>Download CV</li>
+            {/* <li onClick={() => props.darkF()}>Dark Mode</li> */}
+            <li><a href="../img/resume.pdf" download>Download CV</a></li>
           </ul>
         </div>
       </div>
@@ -144,6 +144,10 @@ const Container = styled.div`
     border-radius: 10px;
     width: 80%;
     background: rgba(51, 51, 51, 0.5);
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
   }
   @media only screen and (max-width: 420px) {
     .sidebar {
