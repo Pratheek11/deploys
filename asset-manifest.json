@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/deploys/static/css/main.8a2a300d.chunk.css",
-    "main.js": "/deploys/static/js/main.94b77312.chunk.js",
-    "main.js.map": "/deploys/static/js/main.94b77312.chunk.js.map",
+    "main.js": "/deploys/static/js/main.7e08074d.chunk.js",
+    "main.js.map": "/deploys/static/js/main.7e08074d.chunk.js.map",
     "runtime-main.js": "/deploys/static/js/runtime-main.9f256f9c.js",
     "runtime-main.js.map": "/deploys/static/js/runtime-main.9f256f9c.js.map",
     "static/css/2.bce1744b.chunk.css": "/deploys/static/css/2.bce1744b.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.bce1744b.chunk.css.map": "/deploys/static/css/2.bce1744b.chunk.css.map",
     "static/css/main.8a2a300d.chunk.css.map": "/deploys/static/css/main.8a2a300d.chunk.css.map",
     "static/js/2.19263b4a.chunk.js.LICENSE.txt": "/deploys/static/js/2.19263b4a.chunk.js.LICENSE.txt",
-    "static/media/dp.98855a7a.jpeg": "/deploys/static/media/dp.98855a7a.jpeg",
+    "static/media/dp1.9d92ec40.jpeg": "/deploys/static/media/dp1.9d92ec40.jpeg",
     "static/media/index.css": "/deploys/static/media/metropolis-all-400-normal.d6363f82.woff"
   },
   "entrypoints": [
@@ -22,6 +22,6 @@
     "static/css/2.bce1744b.chunk.css",
     "static/js/2.19263b4a.chunk.js",
     "static/css/main.8a2a300d.chunk.css",
-    "static/js/main.94b77312.chunk.js"
+    "static/js/main.7e08074d.chunk.js"
   ]
 }
