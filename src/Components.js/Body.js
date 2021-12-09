@@ -4,6 +4,7 @@ import { GiSunglasses } from "react-icons/gi";
 import dp from "../img/dp1.jpeg";
 import { gsap } from "gsap";
 
+
 function Body() {
   const ref = useRef();
   const ref2 = useRef();
@@ -37,6 +38,7 @@ function Body() {
         </div>
         {/* <CgProfile size={280} /> */}
         <img ref={ref2} src={dp} alt="DP" className="dp" />
+        
       </Contact>
     </Container>
   );

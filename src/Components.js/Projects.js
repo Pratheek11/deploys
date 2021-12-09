@@ -8,6 +8,7 @@ import { CgWebsite } from "react-icons/cg";
 // import OwlCarousel from "react-owl-carousel";
 // import "owl.carousel/dist/assets/owl.carousel.min.css";
 // import "owl.carousel/dist/assets/owl.theme.default.min.css";
+import responsive from '../img/progressive.svg';
 
 function Projects() {
   const ref = useRef();
@@ -55,27 +56,43 @@ function Projects() {
             </NavLink>
           );
         })}
+        {/* <img src={responsive} alt="svg" className='svg'/> */}
       </Cover>
+      
     </Container>
   );
 }
 const Container = styled.div`
   padding-top: 70px;
-  min-height: 91vh;
+  min-height: 92.5vh;
   height: auto;
   max-width: 100%;
   text-align: center;
+
+  
 
   h2 {
     pointer-events: none;
     padding-top: 10px;
   }
+  
 `;
 const Cover = styled.div`
   padding: 20px;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
+  
+  // .svg {
+  //   position: absolute;
+  //   top: 50%;
+  //   right: 5%;
+  //   z-index: 0;
+  //   height: 40%;
+  //   width: 40%;
+  //   opacity: 0.1;
+  // }
+ 
 
   @media only screen and (max-width: 640px) {
     align-items: center;
@@ -97,7 +114,7 @@ const Cards = styled.div`
   align-items: center;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   transition: background-color 0.5s ease-in;
-
+  z-index: 1000;
   :hover {
     background-color: #d8d8d8;
   }

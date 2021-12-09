@@ -2,6 +2,8 @@ import React, { useRef, useEffect } from "react";
 import styled from "styled-components";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import programming from '../img/programming.svg';
+
 gsap.registerPlugin(ScrollTrigger);
 
 function About() {
@@ -38,6 +40,7 @@ function About() {
       </p>
       <br />
       <Tag>{`</about>`}</Tag>
+      <img src={programming} alt="svg" className="svg"/>
     </Container>
   );
 }
@@ -55,8 +58,19 @@ const Container = styled.div`
 
   p {
     width: 95%;
-    font-size: 19px;
+    font-size: 20px;
   }
+
+  .svg {
+    position: absolute;
+    top: 10%;
+    right: 0%;
+    z-index: -1;
+    height: 90%;
+    width: 90%;
+    opacity: 0.1;
+  }
+
   @media only screen and (max-width: 620px) {
     p {
       font-size: 17px;
@@ -73,6 +87,11 @@ const Container = styled.div`
       margin: 5%;
       width: 90%;
       font-size: 12px;
+    }
+    .svg {
+      height: 80%;
+      width: 80%;
+      opacity: 0.09;
     }
   }
   @media only screen and (max-width: 320px) {

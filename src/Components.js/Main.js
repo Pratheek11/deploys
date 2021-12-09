@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import styled, { css } from "styled-components";
 import { Switch, Route } from "react-router-dom";
 import About from "./About";
+import Skills from './Skills';
 import Body from "./Body";
 import Profile from "./Profile";
 import Topbar from "./Topbar";
@@ -49,6 +50,7 @@ function Main(props) {
             <Route path="/" exact>
               <Body />
               <About />
+              <Skills/>
             </Route>
             <Route path="/projects" exact>
               <Projects />
