@@ -39,7 +39,7 @@ function Topbar(props) {
           <GrClose size={28} onClick={logoF} className="menu" />
           <ul>
             <NavLink
-              to="/"
+              to="/deploys"
               exact
               style={{ color: "black", textDecoration: "none" }}
               activeStyle={{
