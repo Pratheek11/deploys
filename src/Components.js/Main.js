@@ -47,7 +47,7 @@ function Main(props) {
         </Pr>
         <Container>
           <Switch>
-            <Route path="/" exact>
+            <Route path="/deploys" exact>
               <Body />
               <About />
               <Skills/>
